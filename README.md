@@ -1,12 +1,12 @@
 # Product Recognition of Books
 **Image Processing and Computer Vision**
 
-## 📖 Overview
+## Overview
 This project implements a robust computer vision pipeline to detect, localize, and count multiple instances of specific books within cluttered scene images. By leveraging **SIFT (Scale-Invariant Feature Transform)**, **homography estimation**, and **RANSAC-based geometric verification**, the system accurately identifies books under varying viewpoints, scales, and lighting conditions.
 
 ---
 
-## 🛠️ Methodology
+## Methodology
 
 ### 1. Image Preprocessing
 To ensure reliable feature extraction, scene and model images undergo several preprocessing steps:
@@ -33,7 +33,7 @@ To ensure reliable feature extraction, scene and model images undergo several pr
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 The system is evaluated using an **instance-based approach** against manually annotated ground truth counts. 
 
@@ -59,7 +59,7 @@ The system is evaluated using an **instance-based approach** against manually an
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 * Python 3.x
 * `opencv-python` (cv2)
 * `numpy`
@@ -68,7 +68,7 @@ The system is evaluated using an **instance-based approach** against manually an
 
 ---
 
-## 🚀 Usage
+## Usage
 1. **Directory Setup:** Ensure you have a `models/` directory (containing individual book cover images) and a `scenes/` directory (containing the cluttered scene images).
 2. **Update Paths:** Modify the `MODELS_DIR` and `SCENES_DIR` variables in the notebook to point to your local or cloud storage paths.
 3. **Run Notebook:** Execute the Jupyter Notebook cells sequentially to:
